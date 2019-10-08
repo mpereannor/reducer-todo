@@ -13,8 +13,7 @@ export default function Todos () {
     const[todos, dispatch] = useReducer(todoReducer, initialList);
     // const toggleCompleted = () => dispatch({type: TOGGLE_COMPLETED});
 
-    // const addTodos = () => dispatch({type: ADD_TODOS});
-
+   
     // const clearCompleted = () => dispatch({type: CLEAR_COMPLETED});
 
     return (

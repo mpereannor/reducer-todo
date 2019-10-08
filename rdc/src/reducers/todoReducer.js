@@ -7,8 +7,9 @@ import uuid from 'uuid';
 }
 ]
 
-export const todoReducer = function reducer(todos, action) {
-    switch (action){
+export const todoReducer = function reducer(newTodo, action) {
+    switch (action.type){
+       
         // case STH: 
         // return newSTH;
         default: 
